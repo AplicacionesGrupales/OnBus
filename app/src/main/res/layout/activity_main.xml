@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="onbus.garay.david.onbus.MainActivity"
+    android:background="@drawable/fondo1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:id="@+id/portada_appI"
+    android:src="@drawable/imagen_login"
+        />
+
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="120sp"
+        android:text="Correo Electronico"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="150sp"
+        android:hint="Ingrese su Correo Electronico"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColorHint="#000000"
+        android:background="#6AFF8E"/>
+
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="210sp"
+        android:text="Contraseña"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="240sp"
+        android:hint="Ingrese su Contraseña"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColorHint="#000000"
+        android:background="#6AFF8E"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+    android:layout_width="150sp"
+    android:layout_height="50sp"
+    android:layout_marginTop="300sp"
+    android:layout_marginLeft="20sp"
+    android:text="Facebook"
+    android:textSize="18sp"
+    android:background="#2531FF"
+    />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="20sp"
+        android:text="Google +"
+        android:textSize="18sp"
+        android:background="#FF321A"
+        />
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/portada_app"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="370sp"
+        android:layout_marginLeft="80sp"
+        android:text="Ingresar"
+        android:textSize="30sp"
+        android:onClick="onIniciar"
+        android:background="#FFAD5A"
+        />
+<Button
+    android:id="@+id/btn_registro"
+    android:layout_width="match_parent"
+    android:text="Registrarse"
+    android:layout_height="50sp"
+    android:layout_marginLeft="30sp"
+    android:layout_marginRight="30sp"
+    android:layout_marginTop="470sp"
+    android:onClick="onRegistrar"/>
+
+
+</RelativeLayout>
+
+

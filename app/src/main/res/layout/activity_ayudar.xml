@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1">
+<TextView
+    android:id="@+id/TV_Ayuda"
+    android:layout_width="400sp"
+    android:layout_height="100sp"
+    android:text="Ayuda"
+    android:textSize="50sp"
+    android:paddingLeft="100sp"
+    android:paddingTop="20sp"
+    android:typeface="monospace"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lista_ayuda"
+        android:choiceMode="singleChoice"
+        android:divider="#77E8AC"
+        android:dividerHeight="5sp"
+        android:listSelector="#73E873"
+        android:footerDividersEnabled="true"
+        android:background="#99FFB1"
+        android:soundEffectsEnabled="true"
+        />
+</LinearLayout>

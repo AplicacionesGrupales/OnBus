@@ -1,0 +1,4 @@
+include ':app'
+/*, ':AndroidBootstrap', ':Boostrap'
+project(':AndroidBootstrap').projectDir = new File('app/src/main/Boostrap/AndroidBootstrap')
+project(':Boostrap').projectDir = new File('app/src/main/Boostrap/sample')*/

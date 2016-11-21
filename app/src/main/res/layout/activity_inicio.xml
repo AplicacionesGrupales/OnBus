@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1">
+
+
+    <EditText
+        android:layout_width="280sp"
+        android:layout_height="50sp"
+        android:layout_margin="20sp"
+        android:hint="Ingresa lo que quieras buscar"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_paradas"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/opcion1"
+        android:clickable="true"
+        android:onClick="paradas"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ubicar"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/opcion2"
+        android:clickable="true"
+        android:onClick="ubicar"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_calcular"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/opcion3"
+        android:clickable="true"
+        android:onClick="calcular"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tareas"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/opcion4"
+        android:clickable="true"
+        android:onClick="tareas"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ayuda"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/opcion5"
+        android:clickable="true"
+        android:onClick="ayuda"/>
+
+
+</LinearLayout>

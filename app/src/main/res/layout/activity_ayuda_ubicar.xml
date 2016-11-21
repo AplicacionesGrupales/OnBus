@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/GlobalLayout_Ubicar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ubicar Camion"
+                android:id="@+id/txt_ayuda_ubicarT"
+                android:textSize="50sp"
+                android:layout_marginTop="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Con esta herramienta podras localizar el próximo camión a tu parada mas cercana o en la que tu elijas de acuerdo a tu preferencia, podras ubicar el camión en tiempo real y calcular cuanto timpo falta para que llegue a la parada."
+                android:id="@+id/txt_ayuda_ubicarTE"
+                android:textSize="32sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:gravity="left"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

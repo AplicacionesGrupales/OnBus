@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondo1">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/GlobalLayout_Paradas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paradas"
+                android:id="@+id/txt_ayuda_paradasT"
+                android:textSize="50sp"
+                android:layout_marginTop="20sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esta herramienta te permite localizar las distintas paradas que se encuentra en Dolores Hidalgo. Marcadas con un icono podrás identificar en un mapa donde se encuentran las distintas paradas para tu mayor comodidad."
+                android:id="@+id/txt_ayuda_paradasTE"
+                android:textSize="32sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:gravity="left"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
